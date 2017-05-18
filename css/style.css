@@ -1,0 +1,30 @@
+/* ------------------------------
+css for www.zeroz.cn
+design by zeroz & mezeroz@gmail.com
+date 2009-07-15
+---------------------------- */
+
+body,html,div,header,section,article,aside,footer,h1,h4,p,ul,li{margin:0;padding:0;}
+body{font-size:13px;font-family:Century gothic,Verdana,"宋体";}
+ul{list-style:none;}
+
+h4{font-size:14px;margin:0 0 10px;color:#008000;text-shadow:1px 1px 0 #cccccc;}
+a{color:#0066cc;text-decoration:none;}
+a:hover{text-decoration:underline;}
+::-moz-selection{color:#fff;background-color:#639;}
+
+header{position:absolute;top:40px;left:40px;}
+	h1{font-size:3em;margin:0 0 3px;text-shadow:1px 1px 0 #cccccc;}
+
+nav{float:left;margin:150px 0 0 40px;width:10%;}
+	ul{margin:0 0 15px 0;}
+	ul li{line-height:1.5;background:url(../img/point.gif) no-repeat left center;padding:0 0 0 15px;text-shadow:1px 1px 0 #eeeeee;}
+
+article{float:left;margin:150px 0 0 40px;width:50%;}
+	article p{line-height:1.5;margin:0 0 18px 10px;text-shadow:1px 1px 0 #eeeeee;}
+	article ul{margin:0 0 18px 10px;}
+	
+aside{float:left;margin:150px 0 0 40px;width:10%;}
+	
+footer{clear:both;text-align:right;color:#999999;padding:0 0 10px;}
+	footer p{margin:0 40px 0 0;}
